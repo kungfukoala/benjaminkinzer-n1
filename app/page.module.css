@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.videoContainer {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.39);
+}
+
+.caption {
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
+}
