@@ -10,7 +10,6 @@ export default function HomeClient() {
     return (
         <main className={styles.main}>
             <AudioReactiveBackground videoRef={videoRef} />
-            <h1 className={styles.title} style={{ color: 'white', textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>Welcome to the Video Feed</h1>
             <div className={styles.videoContainer}>
                 {/* 
                   The `crossOrigin` attribute is important for MediaElementSource 
